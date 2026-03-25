@@ -8,7 +8,7 @@ sudo apt-get install docker-compose unzip -y
 
 Download do repositório
 ```
-wget  https://github.com/rodrigoclira/devweb2/archive/refs/heads/main.zip
+wget  https://github.com/rodrigoclira/microservice-calc/archive/refs/heads/main.zip
 ```
 
 Descompactar repositório
