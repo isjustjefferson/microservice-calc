@@ -124,3 +124,9 @@ Ao terminar os experimentos, lembre-se de executar ```docker-compose down```
 - [Vídeo 'Docker e Docker Compose na Prática'](https://www.youtube.com/watch?v=YlYTnRRDRyM)
 
 - [Vídeo 'Como Rodar Docker na EC2'](https://www.youtube.com/watch?v=TU3P1fYcTyc)
+
+##  Observações do aluno
+Para executar o projeto, a chamada do Docker Compose não necessita de hífen. Também é necessário chamar o --scale para o microsserviço mult:
+```
+sudo docker compose up -d --build --scale mult=3 --scale ping=2
+```
